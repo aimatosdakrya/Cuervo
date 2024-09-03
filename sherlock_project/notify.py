@@ -267,12 +267,7 @@ class QueryNotifyPrint(QueryNotify):
         """
         NumberOfResults = self.countResults() - 1
 
-        print(Style.BRIGHT + Fore.GREEN + "[" +
-              Fore.YELLOW + "*" +
-              Fore.GREEN + "] Search completed with" +
-              Fore.WHITE + f" {NumberOfResults} " +
-              Fore.GREEN + "results" + Style.RESET_ALL
-              )
+        print('END OF THE HUNT.')
 
     def __str__(self):
         """Convert Object To String.
